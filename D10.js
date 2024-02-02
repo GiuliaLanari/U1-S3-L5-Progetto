@@ -516,12 +516,14 @@ backgroundColorAncore();
 /* ESERCIZIO 24
   Scrivi una funzione per aggiungere un nuovo elemento alla lista non ordinata con id "myList".
 */
-/*const addElementoLi = function () {
+/* FATTO
+const addElementoLi = function () {
   const ulLista = document.getElementById("myList");
   const li = document.createElement("li");
   ulLista.appendChild(li);
 };
 addElementoLi();
+*/
 
 /* ESERCIZIO 25
   Scrivi una funzione per svuotare la lista non ordinata con id "myList".
@@ -536,6 +538,12 @@ removeElementoLi();
 /* ESERCIZIO 26
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
 */
+
+const classAddTr = function () {
+  const trClass = document.getElementsByTagName("tr");
+  trClass.classList.add("test");
+};
+classAddTr();
 
 // [EXTRA] JS Avanzato
 
